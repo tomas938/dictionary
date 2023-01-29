@@ -1,0 +1,24 @@
+.center,
+.spinner {
+	text-align: center;
+}
+.spinner {
+	position: absolute;
+	top: 50px;
+}
+.input {
+	margin-top: 20px;
+	width: 100%;
+	padding: 24px 24px;
+	outline: none;
+	font-size: 1.8rem;
+	font-family: "Source Serif Pro", serif;
+	font-weight: 600;
+	border: none;
+	background-color: rgba(207, 207, 207, 0.274);
+	border-radius: 12px;
+	margin-bottom: 40px;
+}
+input {
+	outline: none;
+}

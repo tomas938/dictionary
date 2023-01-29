@@ -1,0 +1,71 @@
+.header {
+	padding: 30px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.header > svg {
+	display: block;
+	width: 42px;
+	height: 42px;
+	fill: rgb(211, 203, 203);
+}
+.right-part {
+	display: flex;
+	align-items: center;
+}
+.select-box {
+	display: flex;
+	align-items: center;
+	position: relative;
+	color: var(--black);
+	font-weight: 600;
+	font-size: 2rem;
+	cursor: pointer;
+	margin-right: 50px;
+}
+.select-box svg {
+	margin-left: 15px;
+}
+.select-box::after {
+	position: absolute;
+	content: "";
+	right: -25px;
+	top: -15%;
+	height: 130%;
+	width: 2px;
+	background-color: rgba(207, 207, 207, 0.274);
+}
+.relative {
+	position: relative;
+}
+.select-menu {
+	position: absolute;
+	left: 0;
+	min-width: 150px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 12px;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.4s ease-in-out;
+}
+.select-active {
+	position: absolute;
+	left: 0;
+	min-width: 150px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 12px;
+	transition: all 0.4s ease-in-out;
+	opacity: 1;
+	pointer-events: all;
+}
+.select-active li {
+	list-style: none;
+}
+ul li {
+	cursor: pointer;
+	padding: 5px 0px;
+}

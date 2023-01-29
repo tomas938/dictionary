@@ -1,0 +1,92 @@
+.heading {
+	padding: 30px 0px;
+	position: relative;
+	font-size: 2rem;
+	font-weight: 600;
+	color: var(--black);
+	display: flex;
+	align-items: center;
+}
+.list {
+	margin-bottom: 30px;
+	padding: 0px;
+}
+@media only screen and (max-width: 500px) {
+	.list {
+		padding: 0px;
+	}
+}
+.list > div > li {
+	padding: 10px;
+	color: var(--black);
+}
+.list > div > li::marker {
+	color: var(--pink);
+}
+q {
+	padding: 10px;
+	color: rgb(153, 153, 153);
+}
+.heading-grey {
+	display: inline-block;
+	padding: 0px 0px;
+	margin-right: 20px;
+	position: relative;
+	font-size: 2rem;
+	font-weight: 400;
+	color: rgb(153, 153, 153);
+}
+.heading-pink {
+	margin-right: 20px;
+	display: inline-block;
+	padding: 0px 0px;
+	position: relative;
+	font-size: 2rem;
+	font-weight: 600;
+	color: var(--pink);
+}
+.antonym {
+	display: inline-block;
+	padding: 4px 0px;
+}
+.word-list {
+	padding: 10px 0px;
+}
+.word-list > div {
+	padding: 4px 0px;
+}
+small {
+	color: var(--black);
+	margin-top: 30px;
+	font-size: 1.4rem;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	border-top: 2px solid rgba(207, 207, 207, 0.274);
+}
+small > a {
+	display: flex;
+	align-items: center;
+	color: var(--black);
+	margin-left: 10px;
+}
+small > a > svg {
+	display: block;
+	margin-left: 20px;
+}
+@media only screen and (max-width: 500px) {
+	small > a > svg {
+		display: none;
+	}
+	small > a {
+		word-break: break-word;
+	}
+}
+.hr {
+	border: 1px solid rgba(207, 207, 207, 0.274);
+	width: 100%;
+	margin-left: 30px;
+	height: 2px;
+}
